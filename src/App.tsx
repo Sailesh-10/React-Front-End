@@ -14,7 +14,7 @@ const CrudApp: React.FC = () => {
   const [email, setEmail] = useState('');
   const [editingUserId, setEditingUserId] = useState<number | null>(null);
 
-  const apiUrl = 'http://localhost:3000/api/users/';
+  const apiUrl = 'http://13.236.86.74:3000/api/users/';
 
   useEffect(() => {
     fetchUsers();
